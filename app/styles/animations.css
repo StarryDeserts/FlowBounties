@@ -1,0 +1,25 @@
+@keyframes buttonWave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-button {
+  background: linear-gradient(270deg, #3b82f6, #60a5fa, #93c5fd);
+  background-size: 200% 200%;
+  animation: buttonWave 3s ease infinite;
+  border: none;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.animated-button:hover {
+  transform: scale(1.05);
+}
+
