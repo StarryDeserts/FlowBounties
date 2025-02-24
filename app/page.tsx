@@ -103,7 +103,7 @@ function LandingPageInner() {
       <div className="relative h-[600px] w-full">
         <Image
           src="/header-bg.png"
-          alt="H2O Bounty Platform"
+          alt="FlowBounties  Platform"
           fill
           className="object-cover brightness-50"
           priority
@@ -111,7 +111,7 @@ function LandingPageInner() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
         <div className="relative container mx-auto h-full flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-6 text-[var(--h2o-accent)] animate-fade-in">
-            H2O Decentralized Bounty Platform
+            Decentralized Bounty Platform
           </h1>
           <p className="text-base md:text-xl text-[var(--h2o-primary)] max-w-3xl mb-6 md:mb-8 animate-fade-in-delay">
             Next-generation task collaboration platform on Sui blockchain, ensuring transparent and trustworthy task lifecycle management through smart contracts
@@ -227,7 +227,7 @@ function LandingPageInner() {
 
       {/* Footer */}
       <footer className="mt-auto py-4 md:py-6 text-center text-xs md:text-sm text-[var(--h2o-primary)]">
-        <p>© {new Date().getFullYear()} H2O Bounty. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} FlowBounties . All rights reserved.</p>
       </footer>
     </div>
   );

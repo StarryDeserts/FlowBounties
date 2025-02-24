@@ -16,7 +16,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "H2O Bounty",
+  title: "FlowBounties ",
   description: "A decentralized task management and bounty system",
   icons: {
     icon: [

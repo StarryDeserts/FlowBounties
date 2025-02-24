@@ -235,7 +235,7 @@ export default function ProfilePage() {
                   </CardHeader>
                   <CardFooter>
                     <Button 
-                      onClick={() => router.push(`/board/${profile.created_boards[1]}`)}
+                      onClick={() => router.push(`/board/${profile.created_boards[0]}`)}
                       variant="outline"
                       className="w-full click-scale hover:bg-[var(--h2o-secondary)] hover:text-[var(--h2o-accent)]"
                     >
@@ -277,7 +277,7 @@ export default function ProfilePage() {
                   </CardHeader>
                   <CardFooter>
                     <Button 
-                      onClick={() => router.push(`/board/${profile.join_boards[1]}`)}
+                      onClick={() => router.push(`/board/${profile.join_boards[0]}`)}
                       variant="outline"
                       className="w-full click-scale hover:bg-[var(--h2o-secondary)] hover:text-[var(--h2o-accent)]"
                     >

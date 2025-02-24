@@ -43,7 +43,7 @@ export default function SettingsPage() {
             Appearance
           </CardTitle>
           <CardDescription>
-            Customize how H2O Bounty looks on your device
+            Customize how FlowBounties  looks on your device
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">

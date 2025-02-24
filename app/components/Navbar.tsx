@@ -35,7 +35,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-1">
             <Image
               src="/icon.png"
-              alt="H2O Bounty Logo"
+              alt="FlowBounties  Logo"
               width={40}
               height={40}
               className="click-scale"
@@ -45,7 +45,7 @@ export default function Navbar() {
               className="text-xl font-bold text-[var(--h2o-accent)] hover:text-[var(--h2o-primary)] hover:bg-transparent click-scale"
               onClick={() => router.push("/")}
             >
-              H2O Bounty
+              FlowBounties 
             </Button>
           </div>
 

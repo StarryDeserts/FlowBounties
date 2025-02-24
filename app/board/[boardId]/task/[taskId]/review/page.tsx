@@ -73,7 +73,7 @@ export default function ReviewPage({
       const statusValue = values.status === "Rejected" ? 0 : 1
       setSubmittedComment(values.comment)
 
-      await review_submission(
+      const txResult = await review_submission(
         params.boardId,
         params.taskId,
         searchParams.submitter,
@@ -81,18 +81,10 @@ export default function ReviewPage({
         values.comment,
       )
 
-    //   signAndExecute({
-    //     transaction: tx,
-    //   },
-    //   {
-    //     onSuccess: async (tx) => {
-    //       await suiClient.waitForTransaction({
-    //         digest: tx.digest,
-    //       })
-    //       setShowSuccessModal(true)
-    //     }
-    //   }
-    // );
+      if (txResult) {
+        setShowSuccessModal(true)
+      }
+    
     } catch (error) {
       console.error("Failed to submit review:", error)
       form.setError("root", {
@@ -226,7 +218,7 @@ export default function ReviewPage({
           {submittedComment && (
             <div className="mt-4 p-4 bg-[var(--h2o-softbg)] rounded-lg">
               <p className="text-sm text-[var(--h2o-accent)]">AI Comment:</p>
-              <p className="text-muted-foreground mt-1">Check Success</p>
+              <p className="text-muted-foreground mt-1">Solid first step! Love how you nailed Move's module structure—maybe add a quick test for HelloWorld next</p>
             </div>
           )}
 

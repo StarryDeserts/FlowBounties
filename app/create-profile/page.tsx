@@ -94,7 +94,7 @@ export default function CreateProfile() {
             Create Your Profile
           </CardTitle>
           <CardDescription>
-            Tell us about yourself to get started with H2O Bounty
+            Tell us about yourself to get started with FlowBounties 
           </CardDescription>
         </CardHeader>
         <CardContent>

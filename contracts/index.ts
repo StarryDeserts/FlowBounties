@@ -159,9 +159,10 @@ const BountyTxFunction = () => {
       },
     });
     try {
-      await aptos.waitForTransaction({
+      const txResult = await aptos.waitForTransaction({
         transactionHash: transaction.hash,
       });
+      return txResult
     } catch (error) {
       console.error(error);
     }

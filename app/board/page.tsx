@@ -59,7 +59,7 @@ export default function Home() {
     <div className="space-y-8">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-4xl font-bold text-[var(--h2o-accent)] mb-2">H2O Bounty</h1>
+          <h1 className="text-4xl font-bold text-[var(--h2o-accent)] mb-2">FlowBounties </h1>
           <p className="text-muted-foreground">Discover and participate in exciting bounty tasks</p>
         </div>
         <Button 
